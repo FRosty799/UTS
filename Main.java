@@ -75,9 +75,9 @@ public class Main {
         mzk5.setJenisKelamin("laki-laki");
         mzk5.setKelurahan("Pasirbiru");
         mzk5.setIDPetugas("2");
-        mzk4.setPosisi();
-        mzk4.setZakat(HargaBeras);
-        mzk4.settotalBayar();
+        mzk5.setPosisi();
+        mzk5.setZakat(HargaBeras);
+        mzk5.settotalBayar();
 
         daftarMuzakkis.add(mzk1);
         daftarMuzakkis.add(mzk2);
