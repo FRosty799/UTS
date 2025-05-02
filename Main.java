@@ -13,7 +13,7 @@ public class Main {
         ArrayList<Muzakki> daftarMuzakkis = new ArrayList<>();
         ArrayList<Amil> daftarAmils = new ArrayList<>();
 
-        System.out.println("NIM : 1237050045\tNama : Fauzan Ramdhani");
+        System.out.println("\n\nNIM : 1237050045\tNama : Fauzan Ramdhani");
         System.out.println("===============================================\n");
         
         Amil aml1 = new Amil("1", "Akang Surakang");
@@ -100,7 +100,7 @@ public class Main {
             if (mzk.getnama().equalsIgnoreCase(namainput)) {
                 mzk.cetakMuzakiDetail();
                 for (Amil amil : daftarAmils) {
-                    if (mzk.getIDPetugas().equalsIgnoreCase(mzk.getIDPetugas())) {
+                    if (mzk.getIDPetugas().equalsIgnoreCase(amil.getIDPetugas())) {
                         System.out.println("Petugas Amilin\t: "+amil.getNama());
                         
                     }
@@ -109,6 +109,7 @@ public class Main {
         }
         
         sc.close();
+        System.out.println("\n");
 
     }
 }
