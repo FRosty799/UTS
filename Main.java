@@ -1,8 +1,9 @@
 import java.util.Scanner;
 import java.util.ArrayList;
 
-import Class.Amil;
-import Class.Muzakki;
+//import Class.Amil;
+//import Class.Muzakki;
+import Class.*;
 
 public class Main {
     public static void main(String[] args) {
